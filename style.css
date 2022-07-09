@@ -2,3 +2,35 @@
   margin-left : 80px;
   font-size : 18px;
 }
+.flexcontainer {
+  display: flex;
+}
+.flexcontainer > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  height: 200px;
+  font-size: 30px;
+  border: 2px solid grey;
+  border-radius: 20%;
+}
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  width: fit-content;
+  margin: auto;
+}
+img {
+  display: block;
+  justify-content: center;
+}
+div {
+  text-align: center;
+}
+u,h2{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
